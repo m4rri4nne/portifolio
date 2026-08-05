@@ -450,6 +450,8 @@ section {
   margin-bottom: 1.3rem;
 }
 
+.about-cta { margin-top: 0.6rem; }
+
 .skills-stack { display: flex; flex-direction: column; gap: 1.2rem; }
 
 .skill-block {
@@ -757,6 +759,110 @@ section {
 
 .p-stars::before { content: '★  '; }
 
+/* ── SERVICES ── */
+.srv-intro {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  line-height: 1.9;
+  max-width: 640px;
+  margin-bottom: 2.6rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.4rem;
+}
+
+.srv-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  padding: 1.6rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: transform 0.22s, border-color 0.22s, background 0.22s;
+}
+
+.srv-card::before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--accent), var(--accent-gold), transparent);
+  transition: width 0.2s;
+}
+
+.srv-card--corp::before {
+  background: linear-gradient(to bottom, var(--accent-gold), var(--accent), transparent);
+}
+
+.srv-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--border-accent);
+  background: var(--card-hover-bg);
+}
+
+.srv-card:hover::before { width: 3px; }
+
+.srv-card-head {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.9rem;
+}
+
+.srv-icon {
+  color: var(--accent-gold);
+  font-size: 0.7rem;
+}
+
+.srv-card-title {
+  font-family: 'Cinzel', serif;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.srv-card-desc {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+}
+
+.srv-features {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: 1.6rem;
+  flex: 1;
+}
+
+.srv-features li {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  padding-left: 1.3rem;
+  position: relative;
+}
+
+.srv-features li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--accent-gold);
+  font-weight: 700;
+}
+
+.srv-cta {
+  align-self: flex-start;
+  min-width: 0;
+  padding: 0.7rem 1.6rem;
+}
+
 /* ── CONTACT ── */
 #contact { background: var(--bg-secondary); }
 
@@ -835,6 +941,8 @@ footer {
   .hero-cta { justify-items: center; max-width: 100%; }
 
   .about-grid { grid-template-columns: 1fr; gap: 2rem; }
+
+  .services-grid { grid-template-columns: 1fr; }
 
   section { padding: 3.5rem 1.2rem; }
 }

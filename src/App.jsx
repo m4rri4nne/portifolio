@@ -6,6 +6,7 @@ import About from './components/About'
 import GothicDivider from './components/GothicDivider'
 import Articles from './components/Articles'
 import Projects from './components/Projects'
+import Services from './components/Services'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -35,6 +36,8 @@ export default function App() {
       <Articles />
       <GothicDivider />
       <Projects />
+      <GothicDivider />
+      <Services />
       <GothicDivider />
       <Contact />
       <Footer />

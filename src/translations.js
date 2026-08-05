@@ -3,10 +3,11 @@ export const translations = {
     'nav.about':    'Sobre mim',
     'nav.articles': 'Artigos',
     'nav.projects': 'Projetos',
+    'nav.services': 'Serviços',
     'nav.contact':  'Contato',
 
     'hero.eyebrow': 'Bem-vinde!',
-    'hero.role':    'Senior QA Engineer · AWS Community Builder · SDET',
+    'hero.role':    'Senior QA Engineer · AWS Community Builder · SDET · He4rt Developers',
     'hero.bio':     'QA Engineer desde 2021, com foco em automação e Continuous Testing de aplicações web, APIs e microsserviços. AWS Community Builder e mentora na comunidade He4rt Developers.',
     'stats.repos':     'Repositórios',
     'stats.followers': 'Seguidores',
@@ -22,6 +23,7 @@ export const translations = {
     'about.p2': 'Minhas principais atividades envolvem planejamento e execução de testes manuais, desenvolvimento de testes automatizados no contexto de Continuous Testing, e participação ativa nas melhorias de processo de desenvolvimento nas Squads em que atuo.',
     'about.p3': 'Como AWS Community Builder, contribuo ativamente com conteúdo sobre cloud e qualidade de software. Escrevo artigos no Dev.to e no AWS Builder Center, compartilhando aprendizados da prática diária de QA e testabilidade. Também participo ativamente dos projetos da He4rt Delas e ofereço mentorias na comunidade He4rt Developers.',
     'about.p4': 'No tempo livre, gosto de desenvolver projetos pessoais e jogar jogos FPS e RPG.',
+    'about.cta': 'Conheça meus serviços →',
 
     'sk.testing': '⬡ Testes & Automação',
     'sk.cloud':   '⬡ Cloud & DevOps',
@@ -43,21 +45,50 @@ export const translations = {
     'proj.more':     'Ver todos os projetos →',
     'proj.moreDesc': 'Explore o repositório completo com todos os projetos e experimentos no GitHub.',
 
+    'srv.eyebrow': '✦ Mentorias, Consultoria & Palestras',
+    'srv.title':   'Serviços',
+    'srv.intro':   'Além de mentoria individual e em grupo para quem quer evoluir em QA, automação de testes ou cloud, também atuo como Senior QA Engineer para empresas — em projetos, freelance, contratos temporários ou de longo prazo — e realizo palestras e treinamentos personalizados.',
+
+    'srv.mentoring.title': 'Mentoria Individual ou em Grupo',
+    'srv.mentoring.desc':  'Mentoria em QA, automação de testes ou cloud, no formato individual (1:1) ou em grupo, para turmas pequenas com objetivos parecidos. No início, mapeamos seus objetivos, nível atual, necessidades e o tempo disponível para estudar — a partir disso monto um plano de estudos sob medida, com desafios práticos ao longo do caminho. Durante os 3 meses, nos encontramos toda semana por 1 hora para acompanhar sua evolução, tirar dúvidas, resolver desafios juntos ou apenas bater um papo.',
+
+    'srv.feature.duration':   '3 meses de mentoria',
+    'srv.feature.weekly':     '1 sessão de 1h por semana',
+    'srv.feature.plan':       'Plano de estudos personalizado, de acordo com objetivos, necessidades e tempo disponível',
+    'srv.feature.challenges': 'Desafios práticos elaborados pela mentora',
+    'srv.feature.flex':       'Encontros para tirar dúvidas, resolver desafios juntos ou apenas bater um papo',
+
+    'srv.cta': 'Entrar em contato',
+
+    'srv.qa.title':    'QA Engineer para Empresas',
+    'srv.qa.desc':     'Atuação como Senior QA Engineer para empresas, seja em projetos pontuais, freelance por hora/diária, contratos temporários ou de longo prazo. Ajudo times a estruturar estratégia de testes, implementar automação, elevar a maturidade de Continuous Testing e melhorar processos de qualidade no dia a dia.',
+    'srv.qa.feature1': 'Projetos pontuais, freelance, contrato temporário ou de longo prazo',
+    'srv.qa.feature2': 'Testes manuais, automação e Continuous Testing',
+    'srv.qa.feature3': 'Escopo, formato e valor definidos conforme a necessidade da empresa',
+    'srv.qa.cta':      'Entrar em contato',
+
+    'srv.corp.title':    'Palestras & Treinamentos para Empresas',
+    'srv.corp.desc':     'Palestras e treinamentos personalizados sobre QA, automação de testes, Continuous Testing e cloud, pensados para o contexto e os desafios reais da sua equipe. Posso abordar desde fundamentos de qualidade de software até tópicos mais avançados de automação e cultura de testes, em formato de palestra pontual ou treinamento com carga horária maior.',
+    'srv.corp.feature1': 'Tema definido em conjunto com a empresa',
+    'srv.corp.feature2': 'Valor e formato a combinar',
+    'srv.corp.cta':      'Entrar em contato',
+
     'con.eyebrow': '✦ Vamos conversar',
     'con.title':   'Contato',
     'con.p1': 'Estou aberta a colaborações, palestras, mentorias e novas oportunidades. Se quiser trocar ideias sobre QA, automação ou cloud, pode chegar!',
     'con.p2': 'Me encontre nas redes abaixo ou abra uma issue em qualquer um dos meus repositórios no GitHub.',
 
-    'footer': 'Alicia Marianne · Senior QA Engineer · AWS Community Builder',
+    'footer': 'Alicia Marianne · Senior QA Engineer · AWS Community Builder · He4rt Developers',
   },
   en: {
     'nav.about':    'About',
     'nav.articles': 'Articles',
     'nav.projects': 'Projects',
+    'nav.services': 'Services',
     'nav.contact':  'Contact',
 
     'hero.eyebrow': 'Welcome!',
-    'hero.role':    'Senior QA Engineer · AWS Community Builder · SDET',
+    'hero.role':    'Senior QA Engineer · AWS Community Builder · SDET · He4rt Developers',
     'hero.bio':     'QA Engineer since 2021, focused on automation and Continuous Testing of web apps, APIs and microservices. AWS Community Builder and mentor at the He4rt Developers community.',
     'stats.repos':     'Repositories',
     'stats.followers': 'Followers',
@@ -73,6 +104,7 @@ export const translations = {
     'about.p2': 'My main activities include planning and executing manual tests, developing automated tests in a Continuous Testing context, and actively participating in development process improvements within the Squads I work in.',
     'about.p3': 'As an AWS Community Builder, I actively contribute content on cloud and software quality. I write articles on Dev.to and the AWS Builder Center, sharing lessons from daily QA practice and testability. I also actively participate in He4rt Delas projects and mentor within the He4rt Developers community.',
     'about.p4': 'In my free time, I enjoy working on personal side projects and playing FPS and RPG games.',
+    'about.cta': 'Check out my services →',
 
     'sk.testing': '⬡ Testing & Automation',
     'sk.cloud':   '⬡ Cloud & DevOps',
@@ -94,6 +126,34 @@ export const translations = {
     'proj.more':     'View all projects →',
     'proj.moreDesc': 'Explore the full repository with all projects and experiments on GitHub.',
 
+    'srv.eyebrow': '✦ Mentoring, Consulting & Talks',
+    'srv.title':   'Services',
+    'srv.intro':   "Besides individual and group mentoring for those looking to grow in QA, test automation or cloud, I also work as a Senior QA Engineer for companies — through projects, freelance work, temporary or long-term contracts — and run custom talks and training sessions.",
+
+    'srv.mentoring.title': 'Individual or Group Mentoring',
+    'srv.mentoring.desc':  "Mentoring in QA, test automation or cloud, either 1:1 or in a group, for small groups with similar goals. We start by mapping out your goals, current level, needs and the time you have available to study — from that I put together a tailored study plan with practical challenges along the way. Over the 3 months, we meet every week for 1 hour to track your progress, answer questions, work through challenges together, or simply talk.",
+
+    'srv.feature.duration':   '3-month mentoring package',
+    'srv.feature.weekly':     '1-hour session every week',
+    'srv.feature.plan':       'Personalized study plan, based on goals, needs and available study time',
+    'srv.feature.challenges': 'Practical challenges designed by the mentor',
+    'srv.feature.flex':       'Sessions to ask questions, solve challenges together, or just talk',
+
+    'srv.cta': 'Get in touch',
+
+    'srv.qa.title':    'QA Engineering for Companies',
+    'srv.qa.desc':     "Working as a Senior QA Engineer for companies, whether through one-off projects, hourly/daily freelance work, temporary or long-term contracts. I help teams structure a testing strategy, implement automation, raise Continuous Testing maturity, and improve day-to-day quality processes.",
+    'srv.qa.feature1': 'One-off projects, freelance work, temporary or long-term contracts',
+    'srv.qa.feature2': 'Manual testing, automation and Continuous Testing',
+    'srv.qa.feature3': "Scope, format and pricing defined based on your company's needs",
+    'srv.qa.cta':      'Get in touch',
+
+    'srv.corp.title':    'Talks & Training for Companies',
+    'srv.corp.desc':     "Custom talks and training sessions on QA, test automation, Continuous Testing and cloud, tailored to your team's real context and challenges. I can cover anything from software quality fundamentals to more advanced automation and testing culture topics, as a one-off talk or an extended training session.",
+    'srv.corp.feature1': 'Topic defined together with the company',
+    'srv.corp.feature2': 'Pricing and format to be agreed',
+    'srv.corp.cta':      'Get in touch',
+
     'con.eyebrow': "✦ Let's talk",
     'con.title':   'Contact',
     'con.p1': "I'm open to collaborations, talks, mentoring and new opportunities. If you want to exchange ideas about QA, automation or cloud, feel free to reach out!",
@@ -105,10 +165,11 @@ export const translations = {
     'nav.about':    'À propos',
     'nav.articles': 'Articles',
     'nav.projects': 'Projets',
+    'nav.services': 'Services',
     'nav.contact':  'Contact',
 
     'hero.eyebrow': 'Bienvenue!',
-    'hero.role':    'Senior QA Engineer · AWS Community Builder · SDET',
+    'hero.role':    'Senior QA Engineer · AWS Community Builder · SDET · He4rt Developers',
     'hero.bio':     "QA Engineer depuis 2021, spécialisée en automatisation et Continuous Testing d'applications web, d'API et de microservices. AWS Community Builder et mentor dans la communauté He4rt Developers.",
     'stats.repos':     'Dépôts',
     'stats.followers': 'Abonnés',
@@ -124,6 +185,7 @@ export const translations = {
     'about.p2': "Mes principales activités comprennent la planification et l'exécution de tests manuels, le développement de tests automatisés dans un contexte de Continuous Testing, et la participation active aux améliorations du processus de développement au sein des Squads.",
     'about.p3': "En tant qu'AWS Community Builder, je contribue activement avec du contenu sur le cloud et la qualité logicielle. J'écris des articles sur Dev.to et l'AWS Builder Center, partageant les leçons de ma pratique quotidienne du QA. Je participe également activement aux projets He4rt Delas et propose des mentorats au sein de la communauté He4rt Developers.",
     'about.p4': "Dans mon temps libre, j'aime développer des projets personnels et jouer à des jeux FPS et RPG.",
+    'about.cta': 'Découvrir mes services →',
 
     'sk.testing': '⬡ Tests & Automatisation',
     'sk.cloud':   '⬡ Cloud & DevOps',
@@ -145,11 +207,39 @@ export const translations = {
     'proj.more':     'Voir tous les projets →',
     'proj.moreDesc': 'Explorez le dépôt complet avec tous les projets et expérimentations sur GitHub.',
 
+    'srv.eyebrow': '✦ Mentorat, Conseil & Conférences',
+    'srv.title':   'Services',
+    'srv.intro':   "En plus du mentorat individuel et en groupe pour progresser en QA, automatisation des tests ou cloud, j'interviens aussi en tant que Senior QA Engineer pour des entreprises — en mission, en freelance, en contrat temporaire ou de longue durée — et je propose des conférences et formations sur mesure.",
+
+    'srv.mentoring.title': 'Mentorat Individuel ou en Groupe',
+    'srv.mentoring.desc':  "Mentorat en QA, automatisation des tests ou cloud, en format individuel (1:1) ou en groupe, pour de petits groupes ayant des objectifs similaires. Nous commençons par définir vos objectifs, votre niveau actuel, vos besoins et le temps disponible pour étudier — à partir de là, je construis un plan d'études sur mesure, avec des défis pratiques tout au long du parcours. Pendant les 3 mois, nous nous retrouvons chaque semaine pendant 1 heure pour suivre votre progression, répondre à vos questions, résoudre des défis ensemble, ou simplement discuter.",
+
+    'srv.feature.duration':   'Forfait de mentorat de 3 mois',
+    'srv.feature.weekly':     "1 séance d'1 heure par semaine",
+    'srv.feature.plan':       "Plan d'études personnalisé, selon les objectifs, les besoins et le temps disponible",
+    'srv.feature.challenges': 'Défis pratiques conçus par la mentor',
+    'srv.feature.flex':       'Séances pour poser des questions, résoudre des défis ensemble, ou simplement discuter',
+
+    'srv.cta': 'Me contacter',
+
+    'srv.qa.title':    'QA Engineering pour Entreprises',
+    'srv.qa.desc':     "Intervention en tant que Senior QA Engineer pour des entreprises, que ce soit sur des projets ponctuels, en freelance à l'heure/à la journée, en contrat temporaire ou de longue durée. J'aide les équipes à structurer une stratégie de tests, mettre en place l'automatisation, faire monter en maturité le Continuous Testing et améliorer les processus qualité au quotidien.",
+    'srv.qa.feature1': 'Projets ponctuels, freelance, contrat temporaire ou de longue durée',
+    'srv.qa.feature2': 'Tests manuels, automatisation et Continuous Testing',
+    'srv.qa.feature3': "Périmètre, format et tarif définis selon les besoins de l'entreprise",
+    'srv.qa.cta':      'Me contacter',
+
+    'srv.corp.title':    'Conférences & Formations pour Entreprises',
+    'srv.corp.desc':     "Conférences et formations sur mesure sur le QA, l'automatisation des tests, le Continuous Testing et le cloud, adaptées au contexte réel et aux défis de votre équipe. Je peux aborder aussi bien les fondamentaux de la qualité logicielle que des sujets plus avancés d'automatisation et de culture du test, sous forme de conférence ponctuelle ou de formation plus approfondie.",
+    'srv.corp.feature1': "Thème défini avec l'entreprise",
+    'srv.corp.feature2': 'Tarif et format à convenir',
+    'srv.corp.cta':      'Me contacter',
+
     'con.eyebrow': '✦ Parlons-en',
     'con.title':   'Contact',
     'con.p1': "Je suis ouverte aux collaborations, conférences, mentorats et nouvelles opportunités. N'hésitez pas à me contacter pour discuter de QA, automatisation ou cloud !",
     'con.p2': "Retrouvez-moi sur les réseaux ci-dessous ou ouvrez une issue sur l'un de mes dépôts GitHub.",
 
-    'footer': 'Alicia Marianne · Senior QA Engineer · AWS Community Builder',
+    'footer': 'Alicia Marianne · Senior QA Engineer · AWS Community Builder · He4rt Developers',
   },
 }
