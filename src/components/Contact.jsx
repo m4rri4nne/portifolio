@@ -39,7 +39,7 @@ const CONTACTS = [
     ),
   },
   {
-    href: 'mailto:aliciadepaula@gmail.com',
+    href: 'mailto:aliciadepaulaeng@gmail.com',
     label: 'Email',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" width="26" height="26">

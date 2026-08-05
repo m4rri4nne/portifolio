@@ -35,7 +35,7 @@ export default function Services() {
             </ul>
             <a
               className="btn btn-gold srv-cta"
-              href="mailto:aliciadepaula@gmail.com?subject=Proposta%20de%20QA%20Engineering"
+              href="mailto:aliciadepaulaeng@gmail.com?subject=Proposta%20de%20QA%20Engineering"
             >
               {t['srv.qa.cta']}
             </a>
@@ -65,7 +65,7 @@ export default function Services() {
             </ul>
             <a
               className="btn btn-gold srv-cta"
-              href="mailto:aliciadepaula@gmail.com?subject=Palestra%20ou%20treinamento"
+              href="mailto:aliciadepaulaeng@gmail.com?subject=Palestra%20ou%20treinamento"
             >
               {t['srv.corp.cta']}
             </a>
