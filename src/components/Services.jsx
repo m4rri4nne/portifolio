@@ -50,7 +50,7 @@ export default function Services() {
             <ul className="srv-features">
               {FEATURES.map(key => <li key={key}>{t[key]}</li>)}
             </ul>
-            <a className="btn btn-ghost srv-cta" href="#contact">{t['srv.cta']}</a>
+            <a className="btn btn-gold srv-cta" href="#contact">{t['srv.cta']}</a>
           </div>
 
           <div className="srv-card srv-card--corp">
